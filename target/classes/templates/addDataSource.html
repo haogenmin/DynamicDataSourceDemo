@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="http://localhost:8080/addDataSource" method="post">
+        datasourceKey<input type=text name="datasourceKey" ><br>
+        driverClassName<input type="text" name="driverClassName" /><br>
+        jdbcUrl<input type="text" name="jdbcUrl" /><br>
+        username<input type=text name="username" ><br>
+        password<input type="password" name="password" /><br>
+        映射的用户ID<input type=text name="userId" ><br>
+        <input type=submit name="submit" value="添加" >
+    </form>
+</body>
+</html>
