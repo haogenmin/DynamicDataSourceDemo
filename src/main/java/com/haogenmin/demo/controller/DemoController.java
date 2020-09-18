@@ -1,7 +1,6 @@
 package com.haogenmin.demo.controller;
 
 import com.haogenmin.demo.handler.DynamicDataSourceHandler;
-import com.haogenmin.demo.manager.DataSourceMap;
 import com.haogenmin.demo.mapper.DataSourceInfoMapper;
 import com.haogenmin.demo.mapper.ProductMapper;
 import com.haogenmin.demo.model.DataSourceInfo;
@@ -24,7 +23,6 @@ public class DemoController {
     @RequestMapping(value = "product",method = RequestMethod.GET)
     @ResponseBody
     public String product(Integer userId,Integer productId) {
-        DataSourceMap.getInstance().setCurrentUserId(userId);
         Product product = productMapper.findProductById(productId);
         return product.toString();
     }
@@ -37,7 +35,6 @@ public class DemoController {
     @RequestMapping(value = "addDataSource",method = RequestMethod.POST)
     @ResponseBody
     public String addDataSource(DataSourceInfo dataSourceInfo,Integer userId) {
-        DataSourceMap.getInstance().setUserToDataSourceMap(userId,dataSourceInfo.getDatasourceKey());
         int result = dataSourceInfoMapper.addDataSourceInfo(dataSourceInfo);
         System.out.println("添加前dataSource数量:"+DynamicDataSourceHandler.getInstance().dataSourceCount());
         DynamicDataSourceHandler.getInstance().addDataSourceInfo(dataSourceInfo);

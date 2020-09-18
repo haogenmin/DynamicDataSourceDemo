@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ae45095-a47e-42c8-8fc1-1ee195fda022" name="Default Changelist" comment="" />
+    <list default="true" id="8ae45095-a47e-42c8-8fc1-1ee195fda022" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/config/StandardConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/interceptor/DataSourceInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/service/IDataSourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/service/impl/DataSourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/utils/ApplicationContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/utils/DatasourceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/utils/RedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/config/StandardConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/interceptor/DataSourceInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/service/IDataSourceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/service/impl/DataSourceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/utils/ApplicationContextUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/utils/DatasourceMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/utils/RedisClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/DynamicDataSourceDemo.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicDataSourceDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicDataSourceDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/aspect/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/handler/DynamicDataSourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/handler/DynamicDataSourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/listener/MyListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/manager/DataSourceMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/mapper/DataSourceInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haogenmin/demo/mapper/DataSourceInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/DemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/aspect/MyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/controller/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/controller/DemoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/handler/DynamicDataSourceHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/handler/DynamicDataSourceHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/listener/MyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/manager/DataSourceMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/mapper/DataSourceInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haogenmin/demo/mapper/DataSourceInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/application.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +82,31 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -39,6 +117,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1dWEOXcSnKrFza4I6IvttgRq0hH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -55,6 +136,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.haogenmin.demo.config" />
+      <recent name="com.haogenmin.demo.utils" />
       <recent name="com.haogenmin.demoa1.model" />
     </key>
   </component>
@@ -70,7 +153,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.DemoA1_Application">
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DynamicDataSourceDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoA1_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="DynamicDataSourceDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.haogenmin.demo.DemoApplication" />
@@ -78,6 +171,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -91,11 +189,66 @@
       <updated>1592532416476</updated>
       <workItem from="1592532421815" duration="525000" />
       <workItem from="1592532990333" duration="17239000" />
-      <workItem from="1592614926008" duration="3037000" />
+      <workItem from="1592614926008" duration="3755000" />
+      <workItem from="1592786241115" duration="208000" />
+      <workItem from="1600159098681" duration="7435000" />
+      <workItem from="1600215520716" duration="12479000" />
+      <workItem from="1600234684555" duration="12000" />
+      <workItem from="1600416383772" duration="901000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="dataSourceMap" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

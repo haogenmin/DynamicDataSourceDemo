@@ -35,7 +35,7 @@ public class DynamicDataSourceHandler {
     public static DynamicDataSourceHandler getInstance() {
         return dataSourcehHandler;
     }
-    
+
     public void set(String dataSourceKey){
         if(dataSourceKey == null){
             throw new NullPointerException();
@@ -44,7 +44,8 @@ public class DynamicDataSourceHandler {
     }
 
     public String get(){
-        return threadLocal.get();
+        String dataSource = threadLocal.get();
+        return dataSource==null?"default":dataSource;
     }
 
     public void clear(){
@@ -61,6 +62,10 @@ public class DynamicDataSourceHandler {
 
     public DataSource getDataSource(String key) {
         return (DataSource) concurrentHashMap.get(key);
+    }
+
+    public boolean containsKey(String key){
+        return concurrentHashMap.containsKey(key);
     }
 
     public DataSource removeDataSource(String key) {

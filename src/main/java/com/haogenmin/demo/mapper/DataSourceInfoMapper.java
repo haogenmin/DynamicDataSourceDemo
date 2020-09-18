@@ -27,4 +27,7 @@ public interface DataSourceInfoMapper {
             "values(#{datasourceKey},#{driverClassName},#{jdbcUrl},#{username},#{password})")
     int addDataSourceInfo(DataSourceInfo dataSourceInfo);
 
+    @Select("select * from datasource_info where datasource_key = #{key}")
+    DataSourceInfo selectDataSourceInfoByKey(String key);
+
 }

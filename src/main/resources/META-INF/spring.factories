@@ -2,4 +2,4 @@
 #  com.haogenmin.demoa1.config.DataSourceConfig,\
 #  com.haogenmin.demoa1.config.DynamicDataSourceConfig,\
 #  com.haogenmin.demoa1.config.MyBatisConfig
-org.springframework.context.ApplicationListener = com.haogenmin.demo.listener.MyListener
+# org.springframework.context.ApplicationListener = com.haogenmin.demo.listener.MyListener
